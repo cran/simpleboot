@@ -1,13 +1,13 @@
-\name{plot.lm.uclaboot}
+\name{plot.lm.simpleboot}
 
-\alias{plot.lm.uclaboot}
+\alias{plot.lm.simpleboot}
 
 \title{
   Plot method for linear model bootstraps.
 }
 
 \usage{
-\method{plot}{lm.uclaboot}(x, add = FALSE, ...)
+\method{plot}{lm.simpleboot}(x, add = FALSE, ...)
 }
 
 \description{
@@ -16,7 +16,7 @@
 }
 
 \arguments{
-  \item{x}{An object of class \code{"lm.uclaboot"} returned by
+  \item{x}{An object of class \code{"lm.simpleboot"} returned by
     \code{lm.boot}.}
   \item{add}{Switch indicating whether the regression line should be
     added to the current plot.}

@@ -1,13 +1,13 @@
-\name{plot.loess.uclaboot}
+\name{plot.loess.simpleboot}
 
-\alias{plot.loess.uclaboot}
+\alias{plot.loess.simpleboot}
 
 \title{
   Plot method for loess bootstraps.
 }
 
 \usage{
-\method{plot}{loess.uclaboot}(x, add = FALSE, all.lines = FALSE, ...)
+\method{plot}{loess.simpleboot}(x, add = FALSE, all.lines = FALSE, ...)
 }
 
 \description{
@@ -15,7 +15,7 @@
 }
 
 \arguments{
-  \item{x}{An object of class \code{"loess.uclaboot"} as
+  \item{x}{An object of class \code{"loess.simpleboot"} as
     returned by the function \code{loess.boot}.}
   \item{add}{Should the loess line be plotted over the current plot?}
   \item{all.lines}{Should we plot each of the individual loess lines

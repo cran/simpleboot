@@ -1,17 +1,17 @@
-\name{uclaboot-internal}
-\alias{uclaboot-internal}
+\name{simpleboot-internal}
+\alias{simpleboot-internal}
 \alias{lm.boot.resample}
 \alias{lo.boot.resample}
-\alias{model.frame.lm.uclaboot}
+\alias{model.frame.lm.simpleboot}
 
-\title{Internal uclaboot functions}
+\title{Internal simpleboot functions}
 \description{
-  Internal \code{uclaboot} functions.
+  Internal \code{simpleboot} functions.
 }
 \usage{
 lm.boot.resample(lm.object, R, rows, new.xpts, weights)
 lo.boot.resample(lo.object, R, rows, new.xpts, weights)
-model.frame.lm.uclaboot(formula, ...)
+model.frame.lm.simpleboot(formula, ...)
 }
 \details{
   This functions are not to be called by the user.

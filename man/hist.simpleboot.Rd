@@ -1,13 +1,13 @@
-\name{hist.uclaboot}
+\name{hist.simpleboot}
 
-\alias{hist.uclaboot}
+\alias{hist.simpleboot}
 
 \title{
   Histograms for bootstrap sampling distributions.
 }
 
 \usage{
-\method{hist}{uclaboot}(x, do.rug = FALSE, xlab = "Bootstrap samples", main = "", ...)
+\method{hist}{simpleboot}(x, do.rug = FALSE, xlab = "Bootstrap samples", main = "", ...)
 }
 
 \description{
@@ -16,7 +16,7 @@
 }
 
 \arguments{
-  \item{x}{An object of class \code{"uclaboot"} returned from either
+  \item{x}{An object of class \code{"simpleboot"} returned from either
     \code{one.boot}, \code{two.boot}, or \code{pairs.boot}.}
   \item{do.rug}{Should a rug of the bootstrap distribution be plotted
     under the histogram?}
