@@ -1,4 +1,4 @@
-e39f269c500a2dae1a843ac02455c7cc *DESCRIPTION
+5b01a892e3985992dddaac80c3790085 *DESCRIPTION
 0e5cc453df960500e5919516e3ec017f *NAMESPACE
 90deedf60b14f52057ebe1692962bf64 *R/simpleboot.R
 6401c755232fb5a53bdbb0bcf2849d44 *R/zzz.R
@@ -16,4 +16,4 @@ b403a41b93ced0b81be3efbc3c19cae0 *man/perc.Rd
 0899174a3e2fd03b6ad5de63030d4000 *man/samples.Rd
 334409ae302ccb07395e1fd9fcf879c7 *man/two.boot.Rd
 ae49e7532c5e518e6e49b9ae04438695 *tests/reg-tests.R
-59d02ddc04329df7721cc270e43cbd33 *tests/reg-tests.Rout.save
+ca594cd79bb76facd3925c8d9ca74701 *tests/reg-tests.Rout.save
